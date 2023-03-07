@@ -6,6 +6,23 @@
     --accent-color: #ff6c00;
   }
   
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+ul{
+    padding-left: 0;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+address{
+    font-style: normal;
+}
+
   body {
     font-family: 'Open Sans', sans-serif;
   }
@@ -16,6 +33,14 @@
   
   .list {
     list-style: none;
+  }
+
+  .container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
   }
   
   .btn {
@@ -57,6 +82,8 @@
   
   .header {
     background-color: gray;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   
   .header-link {
@@ -143,6 +170,8 @@
   
   .prices {
     background-color: #303030;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .prices-top-text {
     color: rgba(157, 164, 189, 0.6);
