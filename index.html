@@ -11,42 +11,50 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      rel="stylesheet"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="./style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-nav">
           <a class="header-logo" href="./index.html">
             <img
-              src="./images/logo.svg"
               class="header-logo-img"
+              src="./images/logo.svg"
               alt="site logo"
             />
           </a>
           <ul class="header-list list">
             <li class="header-item">
-              <a class="header-link link" href="">About</a>
+              <a class="header-link link" href>About</a>
             </li>
             <li class="header-item">
-              <a class="header-link link" href="">Services and prices</a>
+              <a class="header-link link" href>Services and prices</a>
             </li>
             <li class="header-item">
               <a class="header-link link" href="#barbers">Barbers</a>
             </li>
             <li class="header-item">
-              <a class="header-link link" href="">Contacts</a>
+              <a class="header-link link" href>Contacts</a>
             </li>
           </ul>
         </nav>
-        <a class="header-tel link" href="tel:+380441111111">+38 044 111 11 11</a>
+        <a class="header-tel link" href="tel:+380441111111"
+          >+38 044 111 11 11</a
+        >
         <button class="header-btn btn" type="button">Online-booking</button>
       </div>
     </header>
     <main>
       <section class="hero">
-        <div class="container">
+        <div class="container hero-container">
           <ul class="hero-list list">
             <li class="hero-item">
               <a
@@ -67,13 +75,16 @@
               >
             </li>
           </ul>
-          <p class="hero-top-text top-text">A hair salon for men in Kyiv</p>
-          <h1 class="hero-title">BarberShop</h1>
-          <p class="hero-bottom-text bottom-text">
-            We are experts in trendy men’s haircuts. We work quickly, carefully
-            and with style.
-          </p>
-        </di >
+
+          <div class="hero-wrap">
+            <p class="hero-top-text top-text">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title">BarberShop</h1>
+            <p class="hero-bottom-text bottom-text">
+              We are experts in trendy men’s haircuts. We work quickly, carefully
+              and with style.
+            </p>
+          </di >
+        </div>
       </section>
       <section class="about">
         <div class="container">
@@ -104,12 +115,12 @@
           <p class="about-text">
             We are a team that never stops at what has been achieved and are
             thirsty for changes. And when you fall into the hands of our master,
-            you will never be the same again. We are a team that is always "on the
-            same wave" with clients. Therefore, we are always ready to improve
-            everyone who comes to us!
+            you will never be the same again. We are a team that is always "on
+            the same wave" with clients. Therefore, we are always ready to
+            improve everyone who comes to us!
           </p>
-          <button type="button" class="about-btn btn">Online-booking</button>
-        </di >
+          <button class="about-btn btn" type="button">Online-booking</button>
+        </div>
       </section>
       <section class="prices">
         <div class="container">
@@ -153,8 +164,8 @@
               <p class="prices-item-text">from 200 uah.</p>
             </li>
           </ul>
-          <button type="button" class="prices-btn btn">Online-booking</button>
-        </div class="container">
+          <button class="prices-btn btn" type="button">Online-booking</button>
+        </div>
       </section>
       <section class="benefits">
         <ul class="benefits-list list">
